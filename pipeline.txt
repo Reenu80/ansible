@@ -20,7 +20,7 @@ pipeline {
                 dir('web-src') {
                     git branch: 'main',
                         credentialsId: 'reenu-121',
-                        url: 'https://github.com/Reenu80/ansible.git'
+                        url: 'https://github.com/Reenu80/Lab-jenkins.git'
                 }
             }
         }
